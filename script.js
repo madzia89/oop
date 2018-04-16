@@ -18,7 +18,7 @@ var cat2 = {
     sound: "meower!",
     makeSound: makeSound        // w danym obiekcie jest odwołanie do funkcji, która osniesie się do kontekstu tego obiektu i ipokaże meow jaki robi cat12
 }
-}
+
 
 //this points at execution context  -cat1 or cat 2 object
 cat1.makeSound()
